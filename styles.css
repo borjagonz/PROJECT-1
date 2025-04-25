@@ -1,0 +1,626 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F4FC
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;    
+    color: #292e47;
+}
+
+h3 {
+    color: #292e47;
+    font-size: 32px;
+}
+
+h4 {
+    color: #292e47;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #292e47;
+}
+
+.body-home {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    justify-content: center
+}
+
+header {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header-buttons {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0px 0px 0px 0px;   
+    width: 250px;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.header-buttons-a {
+    text-decoration: none;
+    color: #072AC8;
+}
+
+.header-buttons-a:hover {
+    text-decoration: underline;
+}
+
+.button-contact {
+    background-color: #072AC8;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+}
+
+.button-contact:hover {
+    color: #ffc600;
+}
+
+.hero {
+    display: flex;
+    justify-content: grid;
+}
+
+.hero-content {
+    display: flex;
+    padding: 40px 0px 0px 0px;
+    height: 480px;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;    
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: #292e47;
+}
+
+.hero-container {
+    height: 540px;
+}
+
+.card-1 {
+    height: 55%;
+    position: relative;
+    bottom: 490px;
+    right: 20px;
+}
+
+.hero-image {
+    height: 500px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.card-2 {
+    height: 52%;
+    position: relative;
+    left: 260px;
+    bottom: 460px;
+}
+
+.hero-buttons-style {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.get-in-touch {
+    background-color: #072AC8;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+}
+
+.get-in-touch:hover {
+    color: #ffc600;
+}
+
+.see-our-work {
+    text-decoration: none;
+    color: #6b708d;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.see-our-work:hover {
+    text-decoration: underline;
+    color: rgb(7, 42, 200);
+}
+
+.logos-all {
+    padding: 150px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.logo {
+    filter:saturate(0)
+}
+
+.logo:hover {
+    filter: none;
+}
+
+.logo:hover {
+    fill: black;
+}
+
+#recent-projects {
+    padding: 100px 0px 150px 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.projects-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+
+.project-card-1 {
+    background-color: white;
+    width: 31%;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+}
+
+.anchor-card-1 {
+    text-decoration: none;
+}
+
+.project-card-1:hover {
+    box-shadow: 0px 20px 60px rgba(7, 42, 200, 0.15);
+    transition: box-shadow 0.5s ease;
+}
+
+.project-card-1-text {
+    padding: 10px 0px 25px 20px;
+}
+
+.project-card-1-title {
+    text-decoration: none;
+}
+
+.p-card-1 {
+    text-decoration: none;
+    color: #6b708d;
+}
+
+.img-project {
+    width: 100%;
+    height: 55%;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #072AC8;
+    font-weight: 700;
+    padding: 0px 0px 0px 20px;
+    align-content: end;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+#clients {
+    height: 450px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.testimonial-container {
+    background-image: url(https://raw.githubusercontent.com/borjagonz/PROJECT-1/refs/heads/main/testimonial-section/orbit.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #292e47;
+}
+
+.clients-testimony {
+    align-content: center;    
+}
+
+.text-background {
+    background-color: #292e47;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-profile {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.client-info {
+    padding-left: 20px;
+    text-align: left;
+    line-height: 0.3em;
+}
+
+.client-name {
+    color: #a2d6f9;
+}
+
+.client-company {
+    color: white;
+}
+
+.clients-title {
+    margin-top: 80px;
+    padding-top: 30px;
+    color:  white;
+    font-size: 40px;
+}
+
+.clients-subtitle {
+    color: #ffc600;
+    font-size: 24px;
+}
+
+.memojis {
+    position: relative;
+}
+
+.memoji-1 {
+    width: 6%;
+    position: relative;
+    right: 400px;
+    bottom: 350px;
+}
+
+.memoji-2 {
+    width: 6%;
+    position: relative;
+    right: 475px;
+}
+
+.memoji-3 {
+    width: 6%;
+    position: relative;
+    bottom: 350px;
+    left: 475px;
+}
+
+.memoji-4 {
+    width: 6%;
+    position: relative;
+    left: 400px;
+}
+
+#our-services {
+    padding: 100px 0px 120px 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+
+.service-card-2:hover {
+    box-shadow: 0px 20px 60px rgba(7, 42, 200, 0.15);
+    transition: box-shadow 0.5s ease;
+}
+
+.service-card-2 {
+    background-color: white;
+    width: 31%;
+    margin: 0;
+    padding: 30px 0x 0px 0px;
+    height: 350px;
+}
+
+.service-card-2-text {
+    padding: 20px; 
+    margin-bottom: 60px
+}
+
+.p-card-2 {
+    color: #6b708d;
+}
+
+.icon-background {
+    margin: 30px 0px 0px 20px;
+    padding: 10px;
+    background-color: #d1edff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#questions {
+    background-color: #ffc600;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.questions-title {
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.questions-subtitle {
+    font-size: 30px;
+    padding-bottom: 40px;
+    line-height: 0px
+}
+
+.form-group {
+    align-items: center;
+    display: flex;    
+    justify-content: center;
+}
+
+.icon-newsletter {
+    position: relative;
+    left: 50px;
+    fill: #072AC8;
+}
+
+.input-email {
+    height: 58px;
+    stroke-width: 0;
+    width: 450px;
+    border-width: 0px;    
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.suscribe-button {
+    background-color: #072AC8;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.suscribe-button:hover {
+    color: #ffc600;
+    cursor: pointer;
+}
+   
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #292e47;
+    font-size: 17px;
+    margin-left: 45px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #072AC8;
+}
+
+.body-contact {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    justify-content: center;
+}
+
+.contact-form {
+    padding: 60px 0px 120px 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.form-group-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.form-name {
+    height: 60px;
+    width: 980px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;    
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-email {
+    height: 60px;
+    width: 470px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;    
+    text-align: left;
+    font-size: 14px;
+    color: #6b708d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-phone {
+    height: 60px;
+    width: 470px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;    
+    text-align: left;
+    font-size: 14px;
+    color: #6b708d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phone-number-title {
+    margin-left: 20px;
+}
+
+.message-box {
+    height: 60px;
+    width: 980px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;    
+    text-align: left;
+    text-align: start;
+    font-size: 14px;
+    color: #6b708d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-form {
+    background-color: #072AC8;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.submit-form:hover {
+    color: #ffc600;
+    cursor: pointer;
+}
+
+.header-buttons-b {
+    text-decoration: none;
+    color: #6b708d;
+}
+
+.header-buttons-b:hover {
+    text-decoration: underline;
+    color: #072AC8;
+}
+
+.body-project {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    justify-content: center
+}
+
+.project-group-extended {
+    padding: 60px 0px 0px 0px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.project-img-extended {
+    width: 1000px;
+    box-shadow: 0px 20px 60px rgba(7, 42, 200, 0.3);
+    margin-bottom: 40px;
+}
+
+.subtitle-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subtitle-project {
+    font-size: 24px;
+    color: #6b708d;
+}
+
+.project-completed {
+    font-size: 17px;
+}
+
+.project-date {
+    font-size: 17px;
+    margin-left: 5px;
+    color: #6b708d;
+}
+
+.completed-date {
+    display: flex;
+}
+
+.project-text {
+    font-size: 17px;
+    color: #6b708d;
+}
+
+#other-projects {
+    padding: 50px 0px 80px 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
