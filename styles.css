@@ -1,6 +1,10 @@
+
+/*HOME*/
+
 html {
     font-family: 'Roboto', sans-serif;
-    background-color: #F2F4FC
+    background-color: #F2F4FC;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -26,6 +30,26 @@ p {
     color: #292e47;
 }
 
+.button-top {
+    width: 50px;
+    border: none;
+    position: fixed;
+    transform: translateY(100px);
+    opacity: 0;
+    bottom: 30px;
+    right: 30px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.button-top-on {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.8s;
+}
+
 .body-home {
     margin: 0 auto;
     padding: 0;
@@ -37,7 +61,7 @@ header {
     padding: 0px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     align-items: center;
     margin: 0 auto;
     width: 1000px;
@@ -78,11 +102,12 @@ header {
 
 .button-contact:hover {
     color: #ffc600;
+    transition: 0.3s;
 }
 
 .hero {
     display: flex;
-    justify-content: grid;
+    justify-content: center;
 }
 
 .hero-content {
@@ -147,6 +172,7 @@ header {
 
 .get-in-touch:hover {
     color: #ffc600;
+    transition: 0.3s;
 }
 
 .see-our-work {
@@ -176,10 +202,7 @@ header {
 
 .logo:hover {
     filter: none;
-}
-
-.logo:hover {
-    fill: black;
+    transition: 0.5s;
 }
 
 #recent-projects {
@@ -291,7 +314,7 @@ header {
 }
 
 .clients-title {
-    margin-top: 80px;
+    margin-top: 0px;
     padding-top: 30px;
     color:  white;
     font-size: 40px;
@@ -302,34 +325,36 @@ header {
     font-size: 24px;
 }
 
-.memojis {
-    position: relative;
+.memojis-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+    padding-top: 20px;
+    align-content: center;
+}
+
+.memojis-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+    padding-bottom: 20px;
+    align-content: center;
 }
 
 .memoji-1 {
-    width: 6%;
-    position: relative;
-    right: 400px;
-    bottom: 350px;
+    width: 7%;
 }
 
 .memoji-2 {
-    width: 6%;
-    position: relative;
-    right: 475px;
+    width: 7%;
 }
 
 .memoji-3 {
-    width: 6%;
-    position: relative;
-    bottom: 350px;
-    left: 475px;
+    width: 7%;
 }
 
 .memoji-4 {
-    width: 6%;
-    position: relative;
-    left: 400px;
+    width: 7%;
 }
 
 #our-services {
@@ -429,6 +454,7 @@ header {
 .suscribe-button:hover {
     color: #ffc600;
     cursor: pointer;
+    transition: 0.3s;
 }
    
 .footer {
@@ -437,28 +463,32 @@ header {
     justify-content: space-between;
     width: 1000px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding-bottom: 40px;
+    
 }
 
 .footer-links {
+    text-align: center;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
+    padding: 0;
+    
 }
 
 .link {
     text-decoration: none;
     color: #292e47;
     font-size: 17px;
-    margin-left: 45px;
+    margin-left: 60px;
 }
 
 .link:hover {
     text-decoration: underline;
     color: #072AC8;
 }
+
+/*CONTACT*/
 
 .body-contact {
     margin: 0 auto;
@@ -558,6 +588,7 @@ header {
 .submit-form:hover {
     color: #ffc600;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .header-buttons-b {
@@ -569,6 +600,8 @@ header {
     text-decoration: underline;
     color: #072AC8;
 }
+
+/*PROJECT*/
 
 .body-project {
     margin: 0 auto;
