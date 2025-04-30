@@ -16,3 +16,16 @@ window.onscroll = () => {
 window.onload = () => {
     button_top.classList.remove("button-top-on")
 }
+
+const header_menu = document.querySelector("#header_menu")
+
+const open_menu = document.querySelector("#open_menu")
+
+const header_buttons = document.querySelector("#header_buttons")
+
+const button_contact = document. querySelector("#button_contact")
+
+open_menu.addEventListener("click", () => {
+    header_menu.add("visible");
+    header_buttons.add("visible");
+})

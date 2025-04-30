@@ -12,12 +12,15 @@
     />
   </head>
   <body class="body-home">
-    <header>
+    <header class="header">
       <a href="index.html" target="_self">
-        <img src="logos/circle.svg" alt="Logo Circle" />
+        <img class="logo-circle" src="logos/circle.svg" alt="Logo Circle" />
       </a>
-      <nav>
-        <ul class="header-buttons">
+      <button id="open_menu" class="open-menu">
+        <img src="burguer-menu-button/burger-menu-circle.svg" alt="" />
+      </button>
+      <nav id="header_menu" class="header-menu">
+        <ul id="header_buttons" class="header-buttons">
           <li>
             <a class="header-buttons-a" href="index.html" target="_self"
               >Home</a
@@ -35,12 +38,14 @@
           </li>
         </ul>
       </nav>
-      <a href="contact.html" class="button-contact">Contact Us</a>
+      <a href="contact.html" id="button_contact" class="button-contact"
+        >Contact Us</a
+      >
     </header>
     <main>
       <section class="hero" id="hero">
-        <div class="hero-content">
-          <div>
+        <div class="hero-container">
+          <div class="hero-textbox">
             <h1>Empower your Business With Stunning Design!</h1>
             <p class="hero-subtitle">
               Circle is a digital design and development studio. We design and
@@ -59,7 +64,7 @@
               </ul>
             </nav>
           </div>
-          <div class="hero-container">
+          <div class="hero-images">
             <img class="hero-image" src="hero-section/hero-image.png" alt="" />
             <img class="card-1" src="hero-section/card-1.png" alt="" />
             <img class="card-2" src="hero-section/card-2.png" alt="" />
@@ -88,7 +93,7 @@
           ><img class="logo" src="logos/amazon-logo.svg" alt="Logo Amazon"
         /></a>
       </section>
-      <section id="recent-projects">
+      <section id="recent-projects" class="recent-projects">
         <h3>Recent Projects</h3>
         <div class="projects-cards">
           <div class="project-card-1">
@@ -171,14 +176,14 @@
           </div>
           <div class="memojis-bottom">
             <img
-            class="memoji-3"
-            src="testimonial-section/memoji-3.png"
-            alt="Memoji"
+              class="memoji-3"
+              src="testimonial-section/memoji-3.png"
+              alt="Memoji"
             />
             <img
-            class="memoji-4"
-            src="testimonial-section/memoji-4.png"
-            alt="Memoji"
+              class="memoji-4"
+              src="testimonial-section/memoji-4.png"
+              alt="Memoji"
             />
           </div>
         </div>
@@ -280,21 +285,31 @@
         <div>
           <ul class="footer-links">
             <li><a class="link" href="index.html" target="_self">Team</a></li>
-            <li><a class="link" href="index.html" target="_self">Services</a></li>
-            <li><a class="link" href="index.html" target="_self">About Us</a></li>
+            <li>
+              <a class="link" href="index.html" target="_self">Services</a>
+            </li>
+            <li>
+              <a class="link" href="index.html" target="_self">About Us</a>
+            </li>
           </ul>
         </div>
         <div class="footer-links-2">
           <ul class="footer-links">
             <li><a class="link" href="index.html" target="_self">Press</a></li>
-            <li><a class="link" href="index.html" target="_self">Projects</a></li>
-            <li><a class="link" href="index.html" target="_self">Privacy Policy</a></li>
+            <li>
+              <a class="link" href="index.html" target="_self">Projects</a>
+            </li>
+            <li>
+              <a class="link" href="index.html" target="_self"
+                >Privacy Policy</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </footer>
-      <button class="button-top button-top-on" id="button_top">
-        <img src="https://raw.githubusercontent.com/borjagonz/PROJECT-1/90aafcd5ddd1b48c4130ce94f2f3c0dcce40b5cf/top-button/top-button.svg" alt="Top button">
-      </button>
+    <button class="button-top button-top-on" id="button_top">
+      <img src="top-button/top-button.svg" alt="Top button" />
+    </button>
   </body>
 </html>
