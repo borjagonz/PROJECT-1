@@ -17,15 +17,23 @@ window.onload = () => {
     button_top.classList.remove("button-top-on")
 }
 
-const header_menu = document.querySelector("#header_menu")
+const nav = document.querySelector("#nav");
+const open = document.querySelector("#open");
+const close = document.querySelector("#close");
+const button_contact = document.querySelector("#button_contact")
 
-const open_menu = document.querySelector("#open_menu")
+open.addEventListener("click", () => {
+    nav.classList.add("visible");
+})
 
-const header_buttons = document.querySelector("#header_buttons")
+close.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
 
-const button_contact = document. querySelector("#button_contact")
+open.addEventListener("click", () => {
+    button_contact.classList.add("visible");
+})
 
-open_menu.addEventListener("click", () => {
-    header_menu.add("visible");
-    header_buttons.add("visible");
+close.addEventListener("click", () => {
+    button_contact.classList.add("visible");
 })
